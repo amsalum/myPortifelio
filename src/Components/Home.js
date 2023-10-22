@@ -4,6 +4,7 @@ import SpaceBoy from "../LottieFiles/SpaceBoy.json";
 import Typed from "./Typed.js";
 import Tilt from 'react-parallax-tilt';
 import Avatar from '../images/Avatar.png';
+import Amsalu from '../images/Amsalu.jpg'
 import {CiCoffeeCup} from "react-icons/ci";
 
 const Home = () => {
@@ -13,9 +14,10 @@ const Home = () => {
 
         <div className='HomeText'>
           <h1>Hi There!</h1>
-          <h1>I'M <b>DEVANSH SAHNI</b></h1>
+          <h1>I'M <b>Amsalu Mekuria</b></h1>
           <Typed/>   
         </div>
+        <img src='' />
 
         <Lottie 
           className="illustration" 
@@ -40,7 +42,7 @@ const Home = () => {
           </p>
         </div>
         <Tilt>
-          <img className='Avatar' src={Avatar} alt="" />
+          <img className='Avatar' src={Amsalu} alt="" />
         </Tilt>
       </div>
     </div>
